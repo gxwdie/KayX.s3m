@@ -6,3 +6,24 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+.grid-container-whole-body {
+  display: grid;
+  position: relative;
+  margin: 0px 20px;
+  padding: 10px 10p;
+  height: 100vh;
+  widt: 100vw;
+  gap: 0;
+  align-content: center;
+  justify-content: center;
+}
+
+header {
+  backlground-color: var(--bg-color-header);
+}
+
+.heading-main {
+  color: va(--color-font);
+  font-size: 45px;
+  font-family: "Sofia", impact, sans-serif;
+}
