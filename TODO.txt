@@ -1,0 +1,7 @@
+!created 27/06/2023
+
+TODO LIST
+
+  1. separate CSS from HTML in "hub/index.html"
+  2. make the CSS styling global (theme for whole site)
+  3. create a simplified login page
