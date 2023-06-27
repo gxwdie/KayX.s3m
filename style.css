@@ -1,0 +1,8 @@
+:root {
+  --bg-color-header: goldenrod;
+  --color-font: #ffffff;
+  --heading-color: 
+  --footer-bg-color: charcoal;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
