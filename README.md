@@ -25,3 +25,4 @@ The suggested stucture will be a 3 page website which consists of:
 	~ A "maker" page
 	~ A "editor" page
 
+
