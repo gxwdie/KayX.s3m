@@ -25,4 +25,6 @@ The suggested stucture will be a 3 page website which consists of:
 	~ A "maker" page
 	~ A "editor" page
 
+#Tasks
 
+This repo includes a TODO.txt so if you dont know what to do... do TODO.txt
