@@ -8,7 +8,34 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <h1>REGISTRATION FORM</h1>
+      <p>please provide the relevent and required informatio</p>
+      <form action="" method="">
+        <fieldset>
+          <legend>PERSONAL INFO</legend>
+          <label for="user_name">User Name: <!-- use the labels for display styling -->
+            <input id="user_name" type="text" name="user_name" required placeholder="Full Names" />
+          </label>
+          <label for="last_name">
+            <input id="last_name" type="text" name="last_name" required placeholder="Last Name" />
+          </label>
+          <label for="email">
+            <input type="email" required id="email" name="email" placeholder="youremail@gmail.com" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>TERMS OF USE</legend>
+          <label for="terms_of_use" >
+            <input type="checkbox" required /> Agree to the <a hre="#" target="_blank">Terms Of US?</a>
+          </label>
+          
+        </fieldset>
+      </form>
+      <input type="submit" value="Submit" name="submit"> 
+      <span>Already a user?....</span>
+      <a href="#" class="sign_in_btn">SIGN IN</a>
+    </main>
     <footer></footer>
   </body>
 </html>
