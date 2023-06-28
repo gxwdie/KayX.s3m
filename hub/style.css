@@ -3,14 +3,14 @@
 /* Styling the Heading Element*/
 
 #heading{
-  font-family: Console;
+  font: Console;
   text-align: center;
 
 }
 
 
 .bkgr{
-  background: rgb(0, 0, 0);
+  background-image: rgb(0, 0, 0);
   color: white;
 }
 
@@ -30,8 +30,8 @@
 }
 
 body {
-  font-family: Console;
-  background-image: "uno_bckgr.jpg";
+  font-family: Monospace;
+  background-image: url("bck_img.jpg");
 }
 
 
@@ -63,7 +63,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #000;
+  background-color: #101820;
   height: 300px; /* only for demonstration, should be removed */
 }
 
