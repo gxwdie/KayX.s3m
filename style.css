@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
 :root {
   --color-font: #000000;
 
@@ -21,12 +24,18 @@
   justify-content: center;
 }
 
+.logo {
+  display: absolute;
+  top: 30px;
+  padding: 30px;
+}
+
 header {
   background-color: var(--bgcolor-header);
   color: var(--color-font);
   width: 100%;
   height: 100px;
-  position: absolute;
+  /*position: absolute; */
   max-width: 700px;
   left: 630px;
   top: -10px;
@@ -35,13 +44,22 @@ header {
 }
 
 .heading-main {
-  color: var(--color-font);
+  color: var(--color-font) ;
   font-size: 80px;
   font-family: "Audiowide", impact, sans-serif;
-  text-shadow: 10px 10px 10px, 10px 10px 10px goldenrod;
+  text-shadow: -5px -5px 10px goldenrod, 5px 5px 10px goldenrod;
   position: absolute;
   top: 50px;
-  left: 700px;
+  left: 602px;
+  background-image: url("https://i.imgur.com/eLVL8qX.jpg");
+  width: 700px;
+  text-align: center;
+  height: 300px;
+  padding: 70px 150px 100px 30px;
+  margin-top: 30px;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: 20px 20px 100px goldenrod, -20px -20px 100px goldenrod;
+  
 }
 
 .button {
@@ -55,6 +73,8 @@ header {
   left: 582px;
   top: 10px;
   text-align: center;
+  margin-top: 10px;
+  padding-top: 5px;
   
 }
 
@@ -77,18 +97,72 @@ sup {
   width: 400px;
   font-size: 24px;
   position: absolute;
-  top: 200px;
+  top: 500px;
   text-align: center;
+  color: grey;
 
   
 }
 
 
 footer {
-  position: relative;
+  position: absolute;
   height: 200px;
-  width: 100%;
+  width: 39%;
   background-color: #000000;
-  top: 500px;
+  top: 800px;
   max-width: 55em;
+  left: 600px;
+}
+
+.fa {
+  margin: 30px;
+  padding: 30px;
+  height: 50px;
+  text-decoration: none;
+  width: 50px;
+  font-size: 50px;
+  color: grey;
+  margin-left: 80px
+}
+
+.fa:active {
+  color: grey;
+  
+}
+
+.fa:visited {
+  color: grey;
+
+}
+
+footer >p {
+  color: grey;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  
+}
+
+.new {
+  border-color: grey;
+  color: grey;
+}
+
+.sign-in{
+  position: absolute;
+  top: 700px;
+  left: 1000px;
+  color: grey;
+  margin-top: 40px;
+}
+
+.btn-sign-in {
+  border: 2px solid grey;
+  height: 5rem;
+  width: 3rem;
+  margin-left: 30px;
+  color: grey;
+  
 }
