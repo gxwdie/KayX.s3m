@@ -166,3 +166,33 @@ footer >p {
   color: grey;
   
 }
+
+@media only screen and (max-width: 600px)
+{
+  .grid-container-whole-body {
+    width: 600px;
+    overflow: hidden;
+    dipslay: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0px;
+    
+    
+  }
+  
+  header {
+    position: absolute;
+    top: -15px;
+    left: -100px;
+    width: 600px;
+  }
+  .button {
+    position: absolute;
+    left: 450px;
+  }
+  .logo {
+    position: absolute;
+    left: 100px;
+    top: 10px;
+  }
+}
