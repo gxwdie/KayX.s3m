@@ -141,9 +141,6 @@ footer >p {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-  
-}
 
 .new {
   border-color: grey;
@@ -169,22 +166,24 @@ footer >p {
 
 @media only screen and (max-width: 600px)
 {
+  /* body {
+    overflow: hidden;
+  } */
   .grid-container-whole-body {
     width: 600px;
-    overflow: hidden;
     dipslay: flex;
     flex-direction: column;
     position: relative;
-    margin: 0px;
-    
-    
+    margin: 0px;  
   }
   
   header {
     position: absolute;
     top: -15px;
     left: -100px;
-    width: 600px;
+    width: 700px;
+    height: 80px;
+    position: fixed;
   }
   .button {
     position: absolute;
@@ -195,4 +194,34 @@ footer >p {
     left: 100px;
     top: 10px;
   }
+  
+  .heading-main {
+    position: absolute;
+    width: 500px;
+    left: -10px;
+    font-size: 4rem;
+    height: 150px;
+    top: -10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px goldenrod, 5px 5px 20px goldenrod;
+  }
+  
+  .head-line {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: -50px;
+    top: 240px;
+  }   
+  
+  .btn-sign-in {
+    position: absolute;
+    left: -800px;
+    top: 40px;
+  }
+  /*ign-in {
+    position: absolute;
+    left: -600px;
+    top: 300px;
+  }*/
 }
